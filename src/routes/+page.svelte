@@ -32,8 +32,8 @@
 			<div class="max-w-md">
 				<label class="form-control w-full max-w-xs">
 					<div class="label">
-						<span class="label-text">CPU</span>
-						<span class="label-text-alt">{cpuPrice}/1 core</span>
+						<span class="label-text">ЦПУ</span>
+						<span class="label-text-alt">{cpuPrice}/1 ядро</span>
 					</div>
 					<input
 						type="number"
@@ -45,8 +45,8 @@
 
 				<label class="form-control w-full max-w-xs">
 					<div class="label">
-						<span class="label-text">RAM</span>
-						<span class="label-text-alt">{ramPrice}/1gb</span>
+						<span class="label-text">ОЗУ</span>
+						<span class="label-text-alt">{ramPrice}/1гб</span>
 					</div>
 					<input
 						type="number"
@@ -58,8 +58,8 @@
 
 				<label class="form-control w-full max-w-xs">
 					<div class="label">
-						<span class="label-text">SSD</span>
-						<span class="label-text-alt">{ssdPrice}/1gb</span>
+						<span class="label-text">Диск</span>
+						<span class="label-text-alt">{ssdPrice}/1гб</span>
 					</div>
 					<input
 						type="number"
@@ -71,7 +71,7 @@
 
 				<label class="form-control w-full max-w-xs">
 					<div class="label">
-						<span class="label-text">Discount (in %)</span>
+						<span class="label-text">Скидка (в %)</span>
 					</div>
 					<input
 						type="number"
@@ -88,9 +88,9 @@
 <div class="hero">
 	<div class="hero-content text-center">
 		<div class="max-w-md">
-			<h1 class="text-4xl font-bold">Result price</h1>
-			<p>{$price[0]}/day ({$price[1]}/day without discount)</p>
-			<p>{toMonthPrice($price[0])}/month ({toMonthPrice($price[1])}/month without discount)</p>
+			<h1 class="text-4xl font-bold mb-3">Результат</h1>
+			<p>{$price[0]}/день ({$price[1]}/день без скидки)</p>
+			<p>{toMonthPrice($price[0])}/месяц ({toMonthPrice($price[1])}/месяц без скидки)</p>
 		</div>
 	</div>
 </div>
